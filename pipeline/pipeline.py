@@ -7,7 +7,7 @@ import types
 from collections import deque
 from datetime import datetime
 
-OUTPUT = os.getenv("HN_PIPELINE_OUTPUT")
+OUTPUT = os.getenv("HN_PIPELINE__CACHE_PATH")
 
 
 class DAG:
